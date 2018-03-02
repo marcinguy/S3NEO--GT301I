@@ -21,7 +21,7 @@ Than create file:
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_device_samsung_msm8226-common" path="device/samsung/msm8226-common" remote="github" />
 </manifest>
-```xml
+```
 
 Than run 
 
