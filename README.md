@@ -6,7 +6,8 @@ Follwong LinageOS instructions.
 Than create file:
 
 <REPO>/.repo/local_manifests/roomservice.xml
-  
+ 
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project name="S3NEO/android_device_samsung_s3ve3g" path="device/samsung/s3ve3g" remote="github" revision="lineage-14.1" />
@@ -20,6 +21,7 @@ Than create file:
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="github" revision="cm-14.1" />
   <project name="LineageOS/android_device_samsung_msm8226-common" path="device/samsung/msm8226-common" remote="github" />
 </manifest>
+```xml
 
 Than run 
 
