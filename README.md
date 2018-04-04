@@ -3,6 +3,9 @@
 
 Follwong LinageOS instructions.
 
+https://wiki.lineageos.org/devices/i9300/build
+
+
 Than create file:
 
 <REPO>/.repo/local_manifests/roomservice.xml
@@ -35,6 +38,13 @@ and put it in:
 
 device/samsungs/msm8226-common
 
+
+At the device-specific code enter:
+
+source build/envsetup.sh
+breakfast s3ve3g
+
 You are all set.
+
 
 Good luck!
