@@ -1,7 +1,7 @@
 # S3NEO--GT301I
 
 
-Follwong LinageOS instructions.
+Follwong LinageOS instructions (here for Samsung Galaxy S III). You will have to adjust it as below and enter different command in device-specific code step.
 
 https://wiki.lineageos.org/devices/i9300/build
 
@@ -41,8 +41,10 @@ device/samsungs/msm8226-common
 
 At the device-specific code enter:
 
+```
 source build/envsetup.sh
 breakfast s3ve3g
+```
 
 You are all set.
 
